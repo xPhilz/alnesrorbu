@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Alnes Rorbu</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<style>
+    .mySlides {display:none;}
+    </style>
+<body>
+
+
+
+
+
+
+
+
+
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="#home" class="w3-bar-item w3-button"><b>Alnes</b> Rorbu</a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#forside" class="w3-bar-item w3-button">Forside</a>
+      <a href="#prisliste" class="w3-bar-item w3-button">Prisliste</a>
+      <a href="#rorbuen" class="w3-bar-item w3-button">Rorbuen</a>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <img class="w3-image" src="/forside_files/img.jpg" alt="Architecture" width="1500" height="800">
+  <div class="w3-display-bottommiddle w3-margin-top w3-center">
+    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>Alnes</b></span> <span class="w3-hide-small w3-text-light-grey">Rorbu</span></h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1564px">
+
+  
+<!-- Image of location/map -->
+<div class="rorbuen-bilde" id="bilder">
+    <img src="" class="rorbuen-bilde" style="width:100%">
+  </div>
+
+
+
+
+
+
+
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <!-- Prisliste section -->
+  <div class="w3-container w3-padding-32 w3-center" id="Prisliste">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Prisliste</h3>
+  </div>
+
+  <table class="w3-table">
+
+    <tr>
+      <th>April - August</th>
+      <th>Ukespris</th>
+      <th>Døgnpris</th>
+    </tr>
+
+    <tr>
+      <td>1. april - 31. mai</td>
+      <td>kr 6 800,-</td>
+      <td>kr 1 050,-</td>
+    </tr>
+
+    <tr>
+        <td>1. juni - 31. august</td>
+        <td>kr 7 800,-</td>
+        <td>kr 1 200 ,-</td>
+      </tr>
+
+      <tr>
+          <th>September - Mars</th>
+          <th>Ukespris</th>
+          <th>Døgnpris</th>  
+        </tr>
+
+        <tr>
+          <td>1. september - 31. oktober</td>
+          <td>kr 6 800,-</td>
+          <td>kr 1 050,-</td>
+        </tr>
+
+        <tr>
+            <td>1. november - 31. mars</td>
+            <td>kr 5 800,-</td>
+            <td>kr 950,-</td>
+          </tr>
+
+          <tr>
+            <th>Øvrig Leie</th>
+          </tr>
+
+          <tr>
+            <td>Weekendleie</td>
+            <td>kr 2 500,-</td>
+            <td>Weekenddøgn: kr 1 500,-</td>
+          </tr>
+
+          <tr>
+            <td>Leie av motor</td>
+            <td>kr 200,-</td>
+            <td>pr. dag (bensin kommer i tillegg)</td>
+          </tr>
+
+          <tr>
+            <td>Leie av sengetrekk og håndkle</td>
+            <td>kr 200,-</td>
+          </tr>
+
+        </table>
+
+
+
+
+
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<!-- Rorbuen section -->
+  <div class="w3-container w3-padding-32 w3-center" id="rorbuen">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Rorbuen</h3>
+    <p>Rorbu med god plass og fin utsikt</p>
+    </div>
+
+    <div>
+        <p>Rorbu med plass til 6</p>
+        <p>2 soverom - 3 senger på hvert rom</p>
+        <p>Dusj og toalett</p>
+        <p>Stue med kjøkkenkrok</p>
+        <p>Flott utsikt mot havet</p>
+        <p>Båt og brygge</p>
+    </div>
+
+
+
+    <h2 class="w3-center">Manual Slideshow</h2>
+
+    <div class="w3-content w3-display-container">
+      <img class="mySlides" src="/forside_files/img1.jpg" style="width:100%">
+      <img class="mySlides" src="/forside_files/img2.jpg" style="width:100%">
+      <img class="mySlides" src="/forside_files/img3.jpg" style="width:100%">
+      <img class="mySlides" src="/forside_files/img4.jpg" style="width:100%">
+    
+      <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+      <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+    </div>
+    
+    <script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+    
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
+    
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length}
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      x[slideIndex-1].style.display = "block";  
+    }
+    </script>
+
+
+<!-- End page content -->
+
+
+
+
+
+
+
+
+<!-- Footer -->
+
+</body>
+</html>
