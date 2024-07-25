@@ -14,8 +14,8 @@
 
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
-  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
-    <a href="#home" class="w3-bar-item w3-button"><b>Alnes</b> Rorbu</a>
+  <div class="w3-bar w3-black w3-wide w3-padding w3-card">
+    <a href="#forside" class="w3-bar-item w3-button"><b>Alnes</b> Rorbu</a>
     <!-- Float links to the right. Hide them on small screens -->
     <div class="w3-right w3-hide-small">
       <a href="#forside" class="w3-bar-item w3-button">Forside</a>
@@ -27,29 +27,93 @@
 
 
 <!-- Header -->
-<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
-  <img class="w3-image" src="/forside_files/img.jpg" alt="Architecture" width="1500" height="800">
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="forside">
+  <img class="w3-image" src="/forside_files/img.jpg" alt="Forside" width="1500" height="800">
   <div class="w3-display-bottommiddle w3-margin-top w3-center">
     <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>Alnes</b></span> <span class="w3-hide-small w3-text-light-grey">Rorbu</span></h1>
   </div>
 </header>
 
+
+<br>
+<br>
+
 <!-- Page content -->
-<div class="w3-content w3-padding" style="max-width:1564px">
+<div class="w3-container w3-padding-32" id="header-rorbue">
+  <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16 w3-center">Fin rorbue på Alnes til utleie</h3>
+</div>
 
+  <style>
+
+    @media (min-width: 768px) {
+        #forside1 {
+            font-size: 1.5vw; /* Larger screens (tablets and small desktops) */
+        }
+    }
+
+    @media (min-width: 1024px) {
+      #forside1 {
+            font-size: 1.2vw; /* Desktops */
+            max-font-size: 15px; /* Maximum font size for larger screens */
+        }
+    }
+
+    @media (max-width: 480px) {
+      #forside1 {
+            font-size: 2vw; /* Smaller screens (phones) */
+        }
+    }
+</style>
+
+<div id="forside1" class="w3-center">
+  <p> Kontaktperson </p>
+  <p> Peggy Gudmundseth </p>
   
-<!-- Image of location/map -->
-<div class="rorbuen-bilde" id="bilder">
-    <img src="" class="rorbuen-bilde" style="width:100%">
-  </div>
+  <br>
+  
+  <p> Telefon: </p>
+  <p> 481 44 030 </p>
+  <p> 920 57 610 </p>
+  
+  <br>
+  
+  <p> E-post: </p>
+  <p><a href="mailto:alnespeggy@hotmail.com"> alnespeggy@hotmail.com </a></p>
+  <p><a href="mailto:in-meret@hotmail.com"> in-meret@hotmail.com </a></p>
+</div>
 
+
+<br>
+<br>
 
   <!-- Prisliste section -->
-  <div class="w3-container w3-padding-32 w3-center" id="Prisliste">
+  <div class="w3-container w3-padding-32 w3-center" id="prisliste">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Prisliste</h3>
   </div>
 
-  <table class="w3-table">
+  <style>
+
+    @media (min-width: 768px) {
+        tr, th {
+            font-size: 1.5vw; /* Larger screens (tablets and small desktops) */
+        }
+    }
+
+    @media (min-width: 1024px) {
+      tr, th {
+            font-size: 1.2vw; /* Desktops */
+            max-font-size: 18px; /* Maximum font size for larger screens */
+        }
+    }
+
+    @media (max-width: 480px) {
+      tr, th {
+            font-size: 2vw; /* Smaller screens (phones) */
+        }
+    }
+</style>
+
+  <table class="w3-table w3-centered">
 
     <tr>
       <th>April - August</th>
@@ -112,8 +176,6 @@
 
 <br>
 <br>
-<br>
-<br>
 
 <!-- Rorbuen section -->
   <div class="w3-container w3-padding-32 w3-center" id="rorbuen">
@@ -163,10 +225,13 @@
     }
     </script>
 
-
-<!-- End page content -->
+<br>
+<br>
 
 <!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+  <p>Alnes Rorbu - Peggy Gudmundseth</p>
+</footer>
 
 </body>
 </html>
