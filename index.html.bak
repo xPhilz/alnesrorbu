@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Alnes Rorbu</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<style>
+    .mySlides {display:none;}
+    </style>
+<body>
+
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-wide w3-padding w3-card">
+    <a href="#forside" class="w3-bar-item w3-button"><b>Alnes</b> Rorbu</a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#forside" class="w3-bar-item w3-button">Forside</a>
+      <a href="#prisliste" class="w3-bar-item w3-button">Prisliste</a>
+      <a href="#rorbuen" class="w3-bar-item w3-button">Rorbuen</a>
+    </div>
+  </div>
+</div>
+
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;">
+  <img class="w3-image" src="/forside_files/img.jpg" alt="Forside" width="1500" height="800">
+  <div class="w3-display-bottommiddle w3-margin-top w3-center">
+    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>Alnes</b></span> <span class="w3-hide-small w3-text-light-grey">Rorbu</span></h1>
+  </div>
+</header>
+
+
+<br>
+<br>
+
+<!-- Page content -->
+<div class="w3-container w3-padding-32"  id="forside">
+  <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16 w3-center">Fin rorbue på Alnes til utleie</h3>
+</div>
+
+<style>
+
+    @media (min-width: 768px) {
+        #forside1 {
+            font-size: 1.5vw; /* Larger screens (tablets and small desktops) */
+        }
+    }
+
+    @media (min-width: 1024px) {
+      #forside1 {
+            font-size: 1.2vw; /* Desktops */
+            /* max-font-size: 15px; /* Maximum font size for larger screens */
+        }
+    }
+
+    @media (max-width: 480px) {
+      #forside1 {
+            font-size: 2vw; /* Smaller screens (phones) */
+        }
+    }
+</style>
+
+
+
+<div class="" style="float: left;">
+<img class="w3-image" src="/forside_files/img16.jpg" alt="Forside" width="400">
+
+<br>
+
+<img class="w3-image" src="/forside_files/img17.jpg" alt="Forside" width="400">
+</div>
+
+<br>
+<br>
+<br>
+
+<div id="forside1" class="w3-center">
+  <p> Kontaktperson </p>
+  <p> Peggy Gudmundseth </p>
+  
+  <br>
+  
+  <p> Telefon: </p>
+  <p> 481 44 030 </p>
+  <p> 920 57 610 </p>
+  
+  <br>
+  
+  <p> E-post: </p>
+  <p><a href="mailto:alnespeggy@hotmail.com"> alnespeggy@hotmail.com </a></p>
+  <p><a href="mailto:in-meret@hotmail.com"> in-meret@hotmail.com </a></p>
+</div>
+
+
+<br>
+<br>
+
+  <!-- Prisliste section -->
+  <div class="w3-container w3-padding-32 w3-center" id="prisliste">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Prisliste</h3>
+  </div>
+
+  <style>
+
+    @media (min-width: 768px) {
+        tr, th {
+            font-size: 1.5vw; /* Larger screens (tablets and small desktops) */
+        }
+    }
+
+    @media (min-width: 1024px) {
+      tr, th {
+            font-size: 1.2vw; /* Desktops */
+            /* max-font-size: 18px; /* Maximum font size for larger screens */
+        }
+    }
+
+    @media (max-width: 480px) {
+      tr, th {
+            font-size: 2vw; /* Smaller screens (phones) */
+        }
+    }
+</style>
+
+  <table class="w3-table w3-centered">
+
+    <tr>
+      <th>April - August</th>
+      <th>Ukespris</th>
+      <th>Døgnpris</th>
+    </tr>
+
+    <tr>
+      <td>1. april - 31. mai</td>
+      <td>kr 6 800,-</td>
+      <td>kr 1 050,-</td>
+    </tr>
+
+    <tr>
+        <td>1. juni - 31. august</td>
+        <td>kr 7 800,-</td>
+        <td>kr 1 200 ,-</td>
+      </tr>
+
+      <tr>
+          <th>September - Mars</th>
+          <th>Ukespris</th>
+          <th>Døgnpris</th>  
+        </tr>
+
+        <tr>
+          <td>1. september - 31. oktober</td>
+          <td>kr 6 800,-</td>
+          <td>kr 1 050,-</td>
+        </tr>
+
+        <tr>
+            <td>1. november - 31. mars</td>
+            <td>kr 5 800,-</td>
+            <td>kr 950,-</td>
+          </tr>
+
+          <tr>
+            <th>Øvrig Leie</th>
+          </tr>
+
+          <tr>
+            <td>Weekendleie</td>
+            <td>kr 2 500,-</td>
+            <td>Weekenddøgn: kr 1 500,-</td>
+          </tr>
+
+          <tr>
+            <td>Leie av motor</td>
+            <td>kr 200,-</td>
+            <td>pr. dag (bensin kommer i tillegg)</td>
+          </tr>
+
+          <tr>
+            <td>Leie av sengetrekk og håndkle</td>
+            <td>kr 200,-</td>
+          </tr>
+
+        </table>
+
+<br>
+<br>
+
+<!-- Rorbuen section -->
+  <div class="w3-container w3-padding-32 w3-center" id="rorbuen">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Rorbuen</h3>
+    <p>Rorbu med god plass og fin utsikt</p>
+    </div>
+
+    <style>
+
+      @media (min-width: 768px) {
+          #rorbu1 {
+              font-size: 1.5vw; /* Larger screens (tablets and small desktops) */
+          }
+      }
+  
+      @media (min-width: 1024px) {
+        #rorbu1 {
+              font-size: 1.2vw; /* Desktops */
+              /* max-font-size: 15px; /* Maximum font size for larger screens */
+          }
+      }
+  
+      @media (max-width: 480px) {
+        #rorbu1 {
+              font-size: 2vw; /* Smaller screens (phones) */
+          }
+      }
+  </style>
+
+    <div id="rorbu1" class="w3-center">
+        <p>Rorbu med plass til 6</p>
+        <p>2 soverom - 3 senger på hvert rom</p>
+        <p>Dusj og toalett</p>
+        <p>Stue med kjøkkenkrok</p>
+        <p>Flott utsikt mot havet</p>
+        <p>Båt og brygge</p>
+    </div>
+
+    <br>
+    <br>
+
+    <div class="w3-content w3-display-container">
+      <img class="mySlides" src="/forside_files/img1.jpg" style="width:100%">
+      <img class="mySlides" src="/forside_files/img2.jpg" style="width:100%">
+      <img class="mySlides" src="/forside_files/img3.jpg" style="width:100%">
+      <img class="mySlides" src="/forside_files/img4.jpg" style="width:100%">
+      <img class="mySlides" src="/forside_files/img5.jpg" style="width:100%">
+      <img class="mySlides" src="/forside_files/img6.jpg" style="width:100%">
+      <img class="mySlides" src="/forside_files/img7.jpg" style="width:100%">
+      <img class="mySlides" src="/forside_files/img8.jpg" style="width:100%">
+      <img class="mySlides" src="/forside_files/img9.jpg" style="width:100%">
+      <img class="mySlides" src="/forside_files/img10.jpg" style="width:100%">
+      <img class="mySlides" src="/forside_files/img11.jpg" style="width:100%">
+      <img class="mySlides" src="/forside_files/img12.jpg" style="width:100%">
+      <img class="mySlides" src="/forside_files/img13.jpg" style="width:100%">
+      <img class="mySlides" src="/forside_files/img14.jpg" style="width:100%">
+    
+      <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+      <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+    </div>
+    
+    <script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+    
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
+    
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length}
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      x[slideIndex-1].style.display = "block";  
+    }
+    </script>
+
+<br>
+<br>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+  <p>Alnes Rorbu - Peggy Gudmundseth</p>
+</footer>
+
+</body>
+</html>
